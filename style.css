@@ -1,0 +1,792 @@
+.address{
+    position: relative;
+width: 1203px;
+height: 784px;
+
+/* Accent color 2 */
+
+background: #FFF5EA;
+border-radius: 36px;
+}
+.text{
+    position: absolute;
+width: 295px;
+height: 42px;
+left: 125px;
+top: 54px;
+
+/* Header 01 */
+
+font-family: 'Laila';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 42px;
+/* identical to box height, or 131% */
+
+letter-spacing: 0.04em;
+
+/* Secondary color */
+
+color: #1F1F1F;
+
+}
+.input1{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 393px;
+height: 94px;
+left: 125px;
+top: 133px;
+}
+.input1 p{
+    
+width: 58px;
+height: 32px;
+
+/* Paragraph 01 */
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 32px;
+/* identical to box height, or 160% */
+
+letter-spacing: 0.02em;
+
+/* Secondary color */
+
+color: #1F1F1F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.textbox1{
+       box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 18px 20px;
+gap: 10px;
+
+width: 393px;
+height: 52px;
+
+background: #FFFFFF;
+/* Secondary color */
+
+border: 1px solid #1F1F1F;
+border-radius: 9px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.textbox1 placeholder{
+    width: 131px;
+height: 11px;
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+letter-spacing: 0.02em;
+
+/* Secondary text color */
+
+color: #5F5F5F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.input2{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 393px;
+height: 94px;
+left: 682px;
+top: 133px;
+}
+.input2 p{
+    width: 146px;
+height: 32px;
+
+/* Paragraph 01 */
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 32px;
+/* identical to box height, or 160% */
+
+letter-spacing: 0.02em;
+
+/* Secondary color */
+
+color: #1F1F1F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.textbox2{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 18px 20px;
+gap: 10px;
+
+width: 393px;
+height: 52px;
+
+background: #FFFFFF;
+/* Secondary color */
+
+border: 1px solid #1F1F1F;
+border-radius: 9px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.textbox2 input{
+    
+width: 205px;
+height: 11px;
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+letter-spacing: 0.02em;
+
+/* Secondary text color */
+
+color: #5F5F5F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.input3{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 393px;
+height: 94px;
+left: 125px;
+top: 267px;
+
+}
+.input3 p{
+    width: 77px;
+height: 32px;
+
+/* Paragraph 01 */
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 32px;
+/* identical to box height, or 160% */
+
+letter-spacing: 0.02em;
+
+/* Secondary color */
+
+color: #1F1F1F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.textbox3{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 18px 20px;
+gap: 10px;
+
+width: 393px;
+height: 52px;
+
+background: #FFFFFF;
+/* Secondary color */
+
+border: 1px solid #1F1F1F;
+border-radius: 9px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.textbox3 placeholder{
+    width: 149px;
+height: 11px;
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+letter-spacing: 0.02em;
+
+/* Secondary text color */
+
+color: #5F5F5F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.input4{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 52px;
+height: 32px;
+left: 682px;
+top: 267px;
+
+}
+.input4 p{
+    
+width: 52px;
+height: 32px;
+
+/* Paragraph 01 */
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 32px;
+/* identical to box height, or 160% */
+
+letter-spacing: 0.02em;
+
+/* Secondary color */
+
+color: #1F1F1F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.textbox4{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 6px 20px;
+gap: 225px;
+
+position: absolute;
+width: 395px;
+height: 48px;
+
+
+background: #FFFFFF;
+/* Secondary color */
+
+border: 1px solid #1F1F1F;
+border-radius: 12px;
+}
+.textbox4 option{
+    width: 94px;
+height: 11px;
+
+/* Paragraph 02 */
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+letter-spacing: 0.02em;
+
+/* Secondary text color */
+
+color: #5F5F5F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.dropdown{
+    width: 36px;
+height: 36px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.dropdown img{
+    position: absolute;
+left: 25%;
+right: 25%;
+top: 41.67%;
+bottom: 33.33%;
+
+/* Secondary color */
+
+border: 2px solid #1F1F1F;
+}
+.input5{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 393px;
+height: 224px;
+left: 125px;
+top: 401px;
+
+}
+.input5 p{
+    width: 88px;
+height: 32px;
+
+/* Paragraph 01 */
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 32px;
+/* identical to box height, or 160% */
+
+letter-spacing: 0.02em;
+
+/* Secondary color */
+
+color: #1F1F1F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.textbox5{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 18px 20px;
+gap: 10px;
+
+width: 393px;
+height: 182px;
+
+background: #FFFFFF;
+/* Secondary color */
+
+border: 1px solid #1F1F1F;
+border-radius: 9px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.textbox5 placeholder{
+    width: 268px;
+height: 11px;
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+letter-spacing: 0.02em;
+
+/* Secondary text color */
+
+color: #5F5F5F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.input6{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 393px;
+height: 94px;
+left: 682px;
+top: 397px;
+}
+.input6 p{
+    width: 38px;
+height: 32px;
+
+/* Paragraph 01 */
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 32px;
+/* identical to box height, or 160% */
+
+letter-spacing: 0.02em;
+
+/* Secondary color */
+
+color: #1F1F1F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.textbox6{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 18px 20px;
+gap: 10px;
+
+width: 393px;
+height: 52px;
+
+background: #FFFFFF;
+/* Secondary color */
+
+border: 1px solid #1F1F1F;
+border-radius: 9px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.textbox6 placeholder{
+    width: 77px;
+height: 11px;
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+letter-spacing: 0.02em;
+
+/* Secondary text color */
+
+color: #5F5F5F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.input7{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 393px;
+height: 94px;
+left: 682px;
+top: 531px;
+}
+.input7 p{
+    width: 196px;
+height: 32px;
+
+/* Paragraph 01 */
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 32px;
+/* identical to box height, or 160% */
+
+letter-spacing: 0.02em;
+
+/* Secondary color */
+
+color: #1F1F1F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.textbox7{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 18px 20px;
+gap: 10px;
+
+width: 393px;
+height: 52px;
+
+background: #FFFFFF;
+/* Secondary color */
+
+border: 1px solid #1F1F1F;
+border-radius: 9px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.textbox7 placeholder{
+    width: 80px;
+height: 11px;
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+letter-spacing: 0.02em;
+
+/* Secondary text color */
+
+color: #5F5F5F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.button{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+margin-top: 40px;;
+gap: 10px;
+
+position: absolute;
+width: 222px;
+height: 56px;
+left: 855px;
+top: 671px;
+
+/* Accent color 1 */
+
+background: #D97642;
+border-radius: 8px;
+}
+.save{
+    width: 45px;
+height: 48px;
+
+font-family: 'Hammersmith One';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 48px;
+/* identical to box height, or 240% */
+
+letter-spacing: 0.02em;
+
+/* Primary color */
+
+color: #FFFFFF;
+margin-top: 0;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.save p{
+    margin:0px;
+}
+.close{
+    
+position: absolute;
+width: 36px;
+height: 36px;
+left: 1121px;
+top: 36px;
+
+}
+.close img{
+    position: absolute;
+left: 16.67%;
+right: 16.67%;
+top: 16.67%;
+bottom: 16.67%;
+
+/* Secondary color */
+
+border: 3px solid #1F1F1F;
+}
